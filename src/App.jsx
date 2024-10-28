@@ -59,7 +59,7 @@ const CountdownToDate = () => {
       </div>
       <div className="container">
         <div className="max-mobileL:py-4 grid grid-cols-2 py-20 max-laptop:overflow-hidden max-tablet:grid-cols-1">
-          <div className="mx-[4rem] text-justify max-laptop:mx-[1rem]">
+          <div className="mx-[4rem] text-justify max-laptop:mx-[1rem] max-mobileL:text-start">
             <h2 className="text-3rem font-semibold uppercase">About Us</h2>
             <p className="text-1.5rem max-laptop:text-1.2rem">
               Be the first to experience The Vortex_Island — a complete platform
