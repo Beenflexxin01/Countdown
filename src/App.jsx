@@ -2,6 +2,7 @@ import React from 'react';
 import Countdown from 'react-countdown';
 import { FaSquareInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 import { FaLinkedinIn } from 'react-icons/fa';
+import logo from '../public/Images/logo.png';
 import { Link } from 'react-router-dom';
 
 const CountdownToDate = () => {
@@ -23,7 +24,7 @@ const CountdownToDate = () => {
       return <span>Happy January 15th, 2025</span>;
     } else {
       return (
-        <div className="w-20vw max-mobileL:w-[28rem] max-mobileL:text-1.4rem mx-auto flex py-10 text-center align-middle text-white max-laptop:w-50vw max-tablet:w-80vw">
+        <div className="w-20vw max-mobileL:w-[28rem] max-mobileL:text-1.4rem max-tablet:w-80vw mx-auto flex py-10 text-center align-middle text-white max-laptop:w-50vw">
           <div>
             <span className={generalStyle}>{days} </span>
             <p className={timeStyle}>Days</p>
@@ -47,9 +48,9 @@ const CountdownToDate = () => {
 
   return (
     <>
-      <div className="h-50vh bg-[url('../public/Images/island5.jpg')] bg-cover bg-center">
-        {/* <div className="h-50vh bg-gradient-to-r from-blue-500 to-orange-900"> */}
-        <div className="mx-auto w-[50%] py-40 max-laptop:w-[100%]">
+      <div className="h-50vh bg-[url('../public/Images/island5.jpg')] bg-cover bg-center brightness-50">
+      <img src={logo} alt="The Vortex_Island" className='h-[10rem] ' />
+        <div className="mx-auto w-[50%] max-laptop:w-[100%]">
           <h2 className="max-mobileL:text-1.5rem w-50vw px-20 py-0 text-center text-2rem font-bold uppercase text-white max-laptop:w-100vw">
             Countdown to The Vortex_Island’s Grand Launch!
           </h2>
