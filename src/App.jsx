@@ -48,10 +48,10 @@ const CountdownToDate = () => {
   return (
     <>
       <div className="h-50vh bg-[url('../public/Images/island5.jpg')] bg-cover bg-center">
-      {/* <div className="h-50vh bg-gradient-to-r from-blue-500 to-orange-900"> */}
+        {/* <div className="h-50vh bg-gradient-to-r from-blue-500 to-orange-900"> */}
         <div className="mx-auto w-[50%] py-40 max-laptop:w-[100%]">
           <h2 className="max-mobileL:text-1.5rem w-50vw px-20 py-0 text-center text-2rem font-bold uppercase text-white max-laptop:w-100vw">
-            Anticipation Awaits: Countdown to Vortex Island’s Grand Launch!
+            Countdown to Vortex Island’s Grand Launch!
           </h2>
 
           <Countdown date={targetDate} renderer={renderer} />
@@ -59,7 +59,7 @@ const CountdownToDate = () => {
       </div>
       <div className="container">
         <div className="max-mobileL:py-4 grid grid-cols-2 py-20 max-laptop:overflow-hidden max-tablet:grid-cols-1">
-          <div className="mx-[4rem] text-justify max-laptop:mx-[1rem] max-mobileL:text-start">
+          <div className="max-mobileL:text-start mx-[4rem] text-justify max-laptop:mx-[1rem]">
             <h2 className="text-3rem font-semibold uppercase">About Us</h2>
             <p className="text-1.5rem max-laptop:text-1.2rem">
               Be the first to experience The Vortex_Island — a complete platform
