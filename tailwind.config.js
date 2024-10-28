@@ -55,6 +55,7 @@ export default {
       '30vw': '30vw',
       '20vw': '20vw',
       '50vw': '50vw',
+      '80vw': '80vw',
     },
 
     borderRadius: {

@@ -23,7 +23,7 @@ const CountdownToDate = () => {
       return <span>Happy January 15th, 2025</span>;
     } else {
       return (
-        <div className="w-30vw max-mobileL:w-[28rem] max-mobileL:text-1.4rem mx-auto flex py-10 text-center align-middle text-white max-laptop:w-50vw">
+        <div className="w-20vw max-mobileL:w-[28rem] max-mobileL:text-1.4rem mx-auto flex py-10 text-center align-middle text-white max-laptop:w-50vw max-tablet:w-80vw">
           <div>
             <span className={generalStyle}>{days} </span>
             <p className={timeStyle}>Days</p>
