@@ -51,7 +51,7 @@ const CountdownToDate = () => {
         {/* <div className="h-50vh bg-gradient-to-r from-blue-500 to-orange-900"> */}
         <div className="mx-auto w-[50%] py-40 max-laptop:w-[100%]">
           <h2 className="max-mobileL:text-1.5rem w-50vw px-20 py-0 text-center text-2rem font-bold uppercase text-white max-laptop:w-100vw">
-            Countdown to Vortex Island’s Grand Launch!
+            Countdown to The Vortex_Island’s Grand Launch!
           </h2>
 
           <Countdown date={targetDate} renderer={renderer} />
