@@ -80,8 +80,7 @@ const CountdownToDate = () => {
             <h2 className="text-2.5rem font-semibold uppercase">
               Join The Waitlist!
             </h2>
-
-            <form action="" name="contact" netlify>
+            <form action="" name="contact" method="POST" data-netlify="true">
               <ul className="">
                 <li className="flex flex-col py-5">
                   <label htmlFor="" className={labelStyling}>
@@ -92,6 +91,7 @@ const CountdownToDate = () => {
                     placeholder="email address"
                     className={inputStyling}
                     required
+                    value="contact"
                   />
                 </li>
                 <li className="flex flex-col py-5">
@@ -103,10 +103,16 @@ const CountdownToDate = () => {
                     placeholder="Phone number"
                     className={inputStyling}
                     required
+                    value="contact"
                   />
                 </li>
                 <li className="flex-co flex gap-3 py-4 align-middle">
-                  <input type="checkbox" className="" required />
+                  <input
+                    type="checkbox"
+                    className=""
+                    value="contact"
+                    required
+                  />
                   <label htmlFor="" className="text-1.2rem leading-tight">
                     I agree to receive Weekly, Bi-Weekly and Monthly emails for
                     The Vortex_Island
