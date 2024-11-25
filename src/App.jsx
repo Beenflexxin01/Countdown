@@ -91,7 +91,6 @@ const CountdownToDate = () => {
                     placeholder="email address"
                     className={inputStyling}
                     required
-                    value="contact"
                   />
                 </li>
                 <li className="flex flex-col py-5">
@@ -103,16 +102,10 @@ const CountdownToDate = () => {
                     placeholder="Phone number"
                     className={inputStyling}
                     required
-                    value="contact"
                   />
                 </li>
                 <li className="flex-co flex gap-3 py-4 align-middle">
-                  <input
-                    type="checkbox"
-                    className=""
-                    value="contact"
-                    required
-                  />
+                  <input type="checkbox" className="" required />
                   <label htmlFor="" className="text-1.2rem leading-tight">
                     I agree to receive Weekly, Bi-Weekly and Monthly emails for
                     The Vortex_Island
