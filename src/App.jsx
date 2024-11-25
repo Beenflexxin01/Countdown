@@ -2,7 +2,7 @@ import React from 'react';
 import Countdown from 'react-countdown';
 import { FaSquareInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 import { FaLinkedinIn } from 'react-icons/fa';
-import logo from '../public/Images/logo.png';
+import logo from '/Images/logo.png';
 import { Link } from 'react-router-dom';
 
 const CountdownToDate = () => {
@@ -24,7 +24,7 @@ const CountdownToDate = () => {
       return <span>Happy January 15th, 2025</span>;
     } else {
       return (
-        <div className="w-20vw max-mobileL:w-[28rem] max-mobileL:text-1.4rem max-tablet:w-80vw mx-auto flex py-10 text-center align-middle text-white max-laptop:w-50vw">
+        <div className="mx-auto flex w-20vw py-10 text-center align-middle text-white max-laptop:w-50vw max-tablet:w-80vw max-mobileL:w-[28rem] max-mobileL:text-1.4rem">
           <div>
             <span className={generalStyle}>{days} </span>
             <p className={timeStyle}>Days</p>
@@ -49,9 +49,9 @@ const CountdownToDate = () => {
   return (
     <>
       <div className="h-50vh bg-[url('../public/Images/island5.jpg')] bg-cover bg-center brightness-50">
-      <img src={logo} alt="The Vortex_Island" className='h-[10rem] ' />
+        <img src={logo} alt="The Vortex_Island" className="h-[10rem]" />
         <div className="mx-auto w-[50%] max-laptop:w-[100%]">
-          <h2 className="max-mobileL:text-1.5rem w-50vw px-20 py-0 text-center text-2rem font-bold uppercase text-white max-laptop:w-100vw">
+          <h2 className="w-50vw px-20 py-0 text-center text-2rem font-bold uppercase text-white max-laptop:w-100vw max-mobileL:text-1.5rem">
             Countdown to The Vortex_Island’s Grand Launch!
           </h2>
 
@@ -59,8 +59,8 @@ const CountdownToDate = () => {
         </div>
       </div>
       <div className="container">
-        <div className="max-mobileL:py-4 grid grid-cols-2 py-20 max-laptop:overflow-hidden max-tablet:grid-cols-1">
-          <div className="max-mobileL:text-start mx-[4rem] text-justify max-laptop:mx-[1rem]">
+        <div className="grid grid-cols-2 py-20 max-laptop:overflow-hidden max-tablet:grid-cols-1 max-mobileL:py-4">
+          <div className="mx-[4rem] text-justify max-laptop:mx-[1rem] max-mobileL:text-start">
             <h2 className="text-3rem font-semibold uppercase">About Us</h2>
             <p className="text-1.5rem max-laptop:text-1.2rem">
               Be the first to experience The Vortex_Island — a complete platform
@@ -81,7 +81,7 @@ const CountdownToDate = () => {
               Join The Waitlist!
             </h2>
 
-            <form action="">
+            <form action="" contact="netlify">
               <ul className="">
                 <li className="flex flex-col py-5">
                   <label htmlFor="" className={labelStyling}>
