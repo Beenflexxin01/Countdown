@@ -81,7 +81,7 @@ const CountdownToDate = () => {
               Join The Waitlist!
             </h2>
 
-            <form action="" contact="netlify">
+            <form action="" name="contact" netlify>
               <ul className="">
                 <li className="flex flex-col py-5">
                   <label htmlFor="" className={labelStyling}>
