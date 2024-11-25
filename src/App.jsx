@@ -113,10 +113,16 @@ const CountdownToDate = () => {
                   </label>
                 </li>
                 <li className="flex-co flex gap-3 py-4 align-middle">
-                  <input
+                  <button
                     type="submit"
                     className="w-100vw cursor-pointer bg-blue-400 text-2rem font-semibold text-white transition-all ease-linear hover:bg-blue-900"
-                  />
+                  >
+                    Send
+                  </button>
+                  {/* <input
+                    type="submit"
+                    className="w-100vw cursor-pointer bg-blue-400 text-2rem font-semibold text-white transition-all ease-linear hover:bg-blue-900"
+                  /> */}
                 </li>
               </ul>
             </form>
