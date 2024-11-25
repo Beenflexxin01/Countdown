@@ -159,7 +159,6 @@
 
 'use client';
 import Countdown from 'react-countdown';
-import Image from 'next/image';
 import { FaSquareInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 import { FaLinkedinIn } from 'react-icons/fa';
 import logo from '/public/Images/logo.png';
@@ -196,7 +195,7 @@ const CountdownToDate = () => {
         style={{ backgroundImage: "url('/Images/island5.jpg')" }}
       >
         <div className="flex flex-col items-center justify-center space-y-4">
-          <Image
+          <img
             src={logo}
             alt="The Vortex_Island Logo"
             width={100}
