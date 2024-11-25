@@ -80,7 +80,7 @@ const CountdownToDate = () => {
             <h2 className="text-2.5rem font-semibold uppercase">
               Join The Waitlist!
             </h2>
-            <form action="" name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
               <ul className="">
                 <li className="flex flex-col py-5">
                   <label htmlFor="" className={labelStyling}>
