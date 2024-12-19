@@ -157,25 +157,63 @@ const CountdownToDate = () => {
                     // value={formData.universityName}
                     // onChange={handleChange}
                   >
-                    <option className='options' value="">Select University</option>
-                    <option className='options' value="Lasu, Ojo">Lasu, Ojo</option>
-                    <option className='options' value="">Unilag</option>
-                    <option className='options' value="">UniIlorin</option>
-                    <option className='options' value="">OOU</option>
-                    <option className='options' value="">OUA</option>
-                    <option className='options' value="">Kwasu</option>
-                    <option className='options' value="">YabaTech</option>
-                    <option className='options' value="">UniOsun</option>
-                    <option className='options' value="">LasuEd (EPE)</option>
-                    <option className='options' value="">Kwara Polythecnic</option>
-                    <option className='options' value="">AAUA</option>
-                    <option className='options' value="">Futa</option>
-                    <option className='options' value="">UniIbadan</option>
-                    <option className='options' value="">LaspoTech</option>
-                    <option className='options' value="">Ibadan Polythecnic</option>
-                    <option className='options' value="">Funaab</option>
-                    <option className='options' value="">Gateway Polythecnic</option>
-                    <option className='options' value="">OgiTech</option>
+                    <option className="options" value="">
+                      Select University
+                    </option>
+                    <option className="options" value="Lasu, Ojo">
+                      Lasu, Ojo
+                    </option>
+                    <option className="options" value="">
+                      Unilag
+                    </option>
+                    <option className="options" value="">
+                      UniIlorin
+                    </option>
+                    <option className="options" value="">
+                      OOU
+                    </option>
+                    <option className="options" value="">
+                      OUA
+                    </option>
+                    <option className="options" value="">
+                      Kwasu
+                    </option>
+                    <option className="options" value="">
+                      YabaTech
+                    </option>
+                    <option className="options" value="">
+                      UniOsun
+                    </option>
+                    <option className="options" value="">
+                      LasuEd (EPE)
+                    </option>
+                    <option className="options" value="">
+                      Kwara Polythecnic
+                    </option>
+                    <option className="options" value="">
+                      AAUA
+                    </option>
+                    <option className="options" value="">
+                      Futa
+                    </option>
+                    <option className="options" value="">
+                      UniIbadan
+                    </option>
+                    <option className="options" value="">
+                      LaspoTech
+                    </option>
+                    <option className="options" value="">
+                      Ibadan Polythecnic
+                    </option>
+                    <option className="options" value="">
+                      Funaab
+                    </option>
+                    <option className="options" value="">
+                      Gateway Polythecnic
+                    </option>
+                    <option className="options" value="">
+                      OgiTech
+                    </option>
                   </select>
                 </li>
                 <li className="flex-co flex gap-3 py-4 align-middle">
@@ -206,14 +244,14 @@ const CountdownToDate = () => {
           <ul className="flex gap-4">
             <li className={iconStyling}>
               <Link
-                to="https://www.instagram.com/accounts/onetap/?next=%2F"
+                to="https://www.instagram.com/the.vortex001/"
                 target="_blank"
               >
                 <FaSquareInstagram size={'20px'} />
               </Link>
             </li>
             <li className={iconStyling}>
-              <Link to="https://x.com/home" target="_blank">
+              <Link to="https://x.com/the_vortex001" target="_blank">
                 <FaSquareXTwitter size={'20px'} />
               </Link>
             </li>
