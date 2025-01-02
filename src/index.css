@@ -78,5 +78,23 @@
   .options {
     text-transform: uppercase;
   }
+
+  .info-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .info--nav {
+    background-color: #e9e3e3;
+    padding: 1rem 0;
+    margin: 0 0 1rem 0;
+  }
+
+  .info-li {
+    font-size: 1.6rem;
+  }
 }
 /* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
