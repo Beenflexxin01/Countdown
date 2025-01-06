@@ -72,7 +72,28 @@ const LandingPage = () => {
         />
       </div>
       <div className="container">
-        <div className="grid grid-cols-2 py-20 max-laptop:overflow-hidden max-tablet:grid-cols-1 max-mobileL:py-4">
+        <div className="ml-[87%] max-laptop:ml-[2rem]">
+          <ul className="flex gap-4">
+            <li className={iconStyling}>
+              <Link
+                to="https://www.instagram.com/the.vortex001/"
+                target="_blank"
+              >
+                <FaSquareInstagram size={'20px'} />
+              </Link>
+            </li>
+            <li className={iconStyling}>
+              <Link to="https://x.com/the_vortex001" target="_blank">
+                <FaSquareXTwitter size={'20px'} />
+              </Link>
+            </li>
+
+            <li className={iconStyling}>
+              <FaLinkedinIn size={'20px'} />
+            </li>
+          </ul>
+        </div>
+        <div className="m-auto grid w-50vw py-20 max-laptop:overflow-hidden max-tablet:grid-cols-1 max-mobileL:py-4">
           <div className="mx-[4rem] text-justify max-laptop:mx-[1rem] max-mobileL:text-start">
             <h2 className="flex text-3rem font-semibold uppercase">
               The Vortex_Island{' '}
@@ -152,7 +173,7 @@ const LandingPage = () => {
                 </defs>
               </svg>
             </h2>
-            <p className="text-1.5rem max-laptop:text-1.2rem">
+            <p className="w-50 text-1.5rem max-laptop:text-1.2rem">
               Be the first to experience The Vortex_Island — a complete platform
               for events, beauty, and digital services. Discover easy ticketing
               for concerts, fashion shows, and beyond, along with a dedicated
@@ -160,7 +181,7 @@ const LandingPage = () => {
               businesses, we offer web development solutions to strengthen your
               brand’s online presence.
             </p>
-            <p className="text-1.5rem max-laptop:text-1.2rem">
+            <p className="w-50 text-1.5rem max-laptop:text-1.2rem">
               Join our subscribers list for daily updates and exclusive access
               to everything The Vortex_Island has to offer!
             </p>
@@ -171,7 +192,7 @@ const LandingPage = () => {
               Join The Subscribers List!
             </h2>
             <form onSubmit={handleSubmit}>
-              <ul className="">
+              <ul className="w-50">
                 <li className="flex flex-col py-5">
                   <label htmlFor="email" className={labelStyling}>
                     Email Address
@@ -254,28 +275,6 @@ const LandingPage = () => {
               </ul>
             </form>
           </div>
-        </div>
-
-        <div className="ml-[87%] mt-4 max-laptop:ml-[2rem]">
-          <ul className="flex gap-4">
-            <li className={iconStyling}>
-              <Link
-                to="https://www.instagram.com/the.vortex001/"
-                target="_blank"
-              >
-                <FaSquareInstagram size={'20px'} />
-              </Link>
-            </li>
-            <li className={iconStyling}>
-              <Link to="https://x.com/the_vortex001" target="_blank">
-                <FaSquareXTwitter size={'20px'} />
-              </Link>
-            </li>
-
-            <li className={iconStyling}>
-              <FaLinkedinIn size={'20px'} />
-            </li>
-          </ul>
         </div>
       </div>
     </>
