@@ -93,7 +93,7 @@ const LandingPage = () => {
             </li>
           </ul>
         </div>
-        <div className="m-auto grid w-50vw py-20 max-laptop:overflow-hidden max-tablet:grid-cols-1 max-mobileL:py-4">
+        <div className="m-auto grid grid-2-cols py-20 max-laptop:overflow-hidden max-tablet:grid-cols-1 max-mobileL:py-4">
           <div className="mx-[4rem] text-justify max-laptop:mx-[1rem] max-mobileL:text-start">
             <h2 className="flex text-3rem font-semibold uppercase">
               The Vortex_Island{' '}
@@ -173,7 +173,7 @@ const LandingPage = () => {
                 </defs>
               </svg>
             </h2>
-            <p className="w-50 text-1.5rem max-laptop:text-1.2rem">
+            <p className="w-50v text-1.5rem max-laptop:text-1.2rem max-tablet:grid-cols-1">
               Be the first to experience The Vortex_Island — a complete platform
               for events, beauty, and digital services. Discover easy ticketing
               for concerts, fashion shows, and beyond, along with a dedicated
@@ -181,7 +181,7 @@ const LandingPage = () => {
               businesses, we offer web development solutions to strengthen your
               brand’s online presence.
             </p>
-            <p className="w-50 text-1.5rem max-laptop:text-1.2rem">
+            <p className="w-100vw w-50v text-1.5rem max-laptop:text-1.2rem max-tablet:grid-cols-1">
               Join our subscribers list for daily updates and exclusive access
               to everything The Vortex_Island has to offer!
             </p>
@@ -192,7 +192,7 @@ const LandingPage = () => {
               Join The Subscribers List!
             </h2>
             <form onSubmit={handleSubmit}>
-              <ul className="w-50">
+              <ul className=" max-tablet:grid-cols-1">
                 <li className="flex flex-col py-5">
                   <label htmlFor="email" className={labelStyling}>
                     Email Address
@@ -233,7 +233,7 @@ const LandingPage = () => {
                     onChange={handleChange}
                   >
                     <option value="">Select University</option>
-                    <option value="Lasu, Ojo">Lasu, Ojo</option>
+                    <option value="Lau, Ojo">Lasu, Ojo</option>
                     <option value="Unilag">Unilag</option>
                     <option value="UniIlorin">UniIlorin</option>
                     <option value="OOU">OOU</option>
