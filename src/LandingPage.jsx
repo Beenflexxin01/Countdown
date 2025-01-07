@@ -9,12 +9,12 @@ import { toast } from 'react-toastify';
 
 const LandingPage = () => {
   const inputStyling =
-    'px-2 border-2 text-1.4rem h-5vh  border-black border-opacity-30  placeholder-grey';
+    'px-2 border-2 text-1.4rem h-5vh  border-black border-opacity-30  placeholder-grey max-laptop:w-100';
 
   const labelStyling = 'font-normal text-1.2rem';
 
   const iconStyling =
-    'bg-blue-400 py-4 px-4 rounded-lg hover:bg-blue-900 transition-all ease-linear hover:text-white max-lg:';
+    ' py-4 px-4 rounded-sm transition-all ease-linear max-lg:';
 
   const [formData, setFormData] = useState({
     email: '',
@@ -93,7 +93,7 @@ const LandingPage = () => {
             </li>
           </ul>
         </div>
-        <div className="m-auto grid grid-2-cols py-20 max-laptop:overflow-hidden max-tablet:grid-cols-1 max-mobileL:py-4">
+        <div className="grid-2-cols m-auto grid w-50vw py-20 max-laptop:m-0 max-laptop:w-100 max-laptop:overflow-hidden max-tablet:grid-cols-1 max-mobileL:py-4">
           <div className="mx-[4rem] text-justify max-laptop:mx-[1rem] max-mobileL:text-start">
             <h2 className="flex text-3rem font-semibold uppercase">
               The Vortex_Island{' '}
@@ -173,7 +173,7 @@ const LandingPage = () => {
                 </defs>
               </svg>
             </h2>
-            <p className="w-50v text-1.5rem max-laptop:text-1.2rem max-tablet:grid-cols-1">
+            <p className="w-50vw text-1.5rem max-laptop:m-0 max-laptop:w-95 max-laptop:text-1.2rem max-tablet:grid-cols-1">
               Be the first to experience The Vortex_Island — a complete platform
               for events, beauty, and digital services. Discover easy ticketing
               for concerts, fashion shows, and beyond, along with a dedicated
@@ -181,18 +181,18 @@ const LandingPage = () => {
               businesses, we offer web development solutions to strengthen your
               brand’s online presence.
             </p>
-            <p className="w-100vw w-50v text-1.5rem max-laptop:text-1.2rem max-tablet:grid-cols-1">
+            <p className="w-50vw text-1.5rem max-laptop:m-0 max-laptop:w-95 max-laptop:text-1.2rem max-tablet:grid-cols-1">
               Join our subscribers list for daily updates and exclusive access
               to everything The Vortex_Island has to offer!
             </p>
           </div>
 
-          <div className="mx-[4rem] max-laptop:mx-[1rem]">
+          <div className="mx-[4rem] w-50vw max-laptop:mx-[1rem] max-laptop:w-95">
             <h2 className="text-2.5rem font-semibold uppercase">
               Join The Subscribers List!
             </h2>
             <form onSubmit={handleSubmit}>
-              <ul className=" max-tablet:grid-cols-1">
+              <ul className="max-tablet:grid-cols-1">
                 <li className="flex flex-col py-5">
                   <label htmlFor="email" className={labelStyling}>
                     Email Address
